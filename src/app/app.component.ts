@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'chips-input';
+  languages: Array<string> = ['JavaScript', 'Java', 'Go', 'Python', 'Ruby', 'Objective C'];
+  selectedLanguages: Array<string> = ['JavaScript'];
 }
